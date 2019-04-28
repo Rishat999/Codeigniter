@@ -1,0 +1,670 @@
+ Add here all your css styles (customizations) */
+/*homepage styles*/
+.menu-container ul { list-style-type: none !important; }
+.logo
+{
+	width: 50px; 
+	height: 50px;
+	top: 0%;
+    position: absolute;
+    left: -3%;
+}
+.nav li:hover
+{
+	border-top: 1px solid #fff;
+}
+.footer-link
+{
+	width: 70px;
+    height: 70px;
+	background-color: #fff !important;
+	border-radius: 50%;
+	display: inline-block !important;
+	margin-right: 5%;
+}
+.footer-link:hover
+{
+	background-color: #52e677 !important;
+	border: 2px solid #fff;
+}
+.footer li a
+{
+	text-decoration: none !important: 
+}
+.link-list li a, .latest-list li a
+{	
+	cursor: pointer;
+	text-decoration: none !important: 
+}
+.footer
+{
+	padding: 40px 0;
+    background: #272727;
+
+}
+.copyright
+{
+	background: #222;
+    border-top: none;
+    padding: 10px 0 5px;
+    text-align: center;
+}
+.copyright p {
+    color: #eee;
+    /*margin-top: 14px;*/
+}
+.footer address
+{
+	color: #fff;
+}
+.security
+{
+	width: 150px;
+    margin-left: 12%;
+    margin-top: -6%;
+}
+.latest-list 
+{
+	line-height: 30px;
+}
+.latest-list li i {
+    float: left;
+    width: 30px;
+    height: 30px;
+    color: #777;
+    padding: 8px 5px;
+    background: #333;
+    text-align: center;
+        margin-right: 5%;
+    /*margin: 4px 10px 0 0;*/
+    display: inline-block;
+    margin-top: 0%;
+}
+.footer .headline h2
+{
+	color: #fff !important;
+}
+#logo-footer 
+{
+	width: 250px;
+}
+.footer p
+{
+	color: #fff !important;
+}
+.map-img p
+{
+	margin-top: 15% !important;
+	margin-bottom: 15%;
+}
+.mg-3
+{
+	margin-top: 3%;
+}
+.parallax-quote {
+    background: url(../img/team/dogs.jpg) 50% 0 repeat fixed;
+}
+a
+{	
+	cursor: pointer;
+	text-decoration: none !important;
+}
+
+.join 
+{
+	margin-bottom: 5%;
+	border: none !important;
+	width: 70%;
+	   
+}
+/*basic membership*/
+.basic i.icon-bg-u , .basic .join{
+    background: #2db5ea;
+}
+.basic li:hover {
+    color: #2db5ea;
+}
+
+.basic li {
+    margin: 8px 0;
+    font-size: 15px;
+    padding-top: 8px;
+    border-top: dotted 1px #2db5ea;
+}
+.basic p:after {    
+    background: #2db5ea;
+}
+.basic:hover
+{
+	border-bottom: 4px solid #2db5ea;
+}
+.basic .join
+{
+	 margin-bottom: -40%;
+}
+.basic .bottom h3
+{
+	padding-top: 14%;
+}
+/*plus memberships*/
+.plus:hover
+{
+	border-bottom: 4px solid #398439;
+}
+.plus .join , .professional .join , .basic .join
+{
+	margin-bottom: -11%;
+}
+/*professional membership*/
+.professional i.icon-bg-u , .professional .join{
+    background: #eb8c00;
+}
+.professional li:hover {
+    color: #eb8c00;
+}
+
+.professional li {
+    margin: 8px 0;
+    font-size: 15px;
+    padding-top: 8px;
+    border-top: dotted 1px #eb8c00;
+}
+.professional p:after {    
+    background: #eb8c00;
+}
+.professional:hover
+{
+	border-bottom: 4px solid #eb8c00;
+}
+.professional .join
+{
+
+}
+.service-block
+{
+	    min-height: 600px !important;
+}
+.btn-success:active:hover
+{
+	border-color:none !important;
+	border: none !important;
+}
+/*latest dogs*/
+.flat-testimonials-in
+{
+	    min-height: 460px !important;
+}
+#latest_dogs .owl-item , #latest_dogs .item
+{
+	width: 380px !important;
+}
+/*puppy page*/
+#dogs , #breeder, #blogs
+{
+	padding-top: 8%;
+	padding-bottom: 5%;
+	background: url(/assets/img/bg/1.jpg);
+	
+}
+
+.breeder-left {
+    background: rgba(0,0,0,0.5);
+    padding: 1px 21px 23px;
+    color: #fff;
+}
+.advanced-search {
+    background: rgba(0,0,0,0.5);
+    color: #fff !important;
+    padding: 1px 21px 23px;
+    color: #fff !important;
+}
+.lastest_individual_blog_content p
+{
+	color: #fff !important;
+}
+.advanced-search h5 {
+    margin: 21px 0 10px;
+    color: #fff;
+}
+.add-head {
+    margin: 30px 0 9px;
+    color: #fff;
+}
+#dogs h5, #breeder h5, #blogs h5
+{
+	color: #fff !important;
+}
+#hidden_minimum_price, #hidden_maximum_price
+{
+	width: 48%;
+	display: inline-block;
+}
+#dogs .icheckbox_square-blue, #breeder .icheckbox_square-blue
+{
+	margin-right: 5%;
+	margin-bottom: 3%;
+}
+#dogs .badges {
+    margin-top: 11%;
+    line-height: 27px;
+}
+
+/*search icon*/
+.btn-circle.btn-circle-raised.btn-circle-primary {
+    background-color: #03a9f4;
+}
+.btn-circle.btn-circle-raised {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    color: #fff;
+}
+.ms-configurator-btn {
+    position: fixed;
+    z-index: 3000;
+    right: 20px;
+    top: 200px;
+    animation-delay: 5s;
+}
+.btn-circle {
+    height: 50px;
+    width: 50px;
+    color: #616161;
+    display: inline-block;
+    border-radius: 200rem;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    transition: color ease .5s;
+    transition: box-shadow ease-in-out 0s;
+    border: 0;
+    background-color: transparent;
+}
+/*search bar*/
+/*dog show*/
+/*.dog_show
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}*/
+.individual_dog:hover, .individual_blog:hover
+{
+	cursor: pointer;
+	transform: scale(1.1);
+	z-index: 2;
+}
+
+.dog_photo, #dogs .view, #blogs .view
+{
+	width: 198px;
+    height: 155px;
+    margin-bottom: 0px;
+}
+#dogs .view , #blogs .view{
+    position:relative;
+    /*overflow:hidden;*/
+   
+}
+
+#dogs .view p , #blogs .view p{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.info {
+    display: block;
+    padding: 10px;
+    background: #ccd0d2;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.info p, .stats p {
+    margin-bottom: 0;
+}
+.propertyType.commercial {
+    background-color: #da3c3c;
+}
+.propertyType {
+    color: #ffffff;
+    display: inline-block;
+    height: 20px;
+    padding: 0 10px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+}
+.wb-red-bg {
+    background-color: #060606;
+}
+.stats {
+    display: block;
+    padding: 10px;
+    color: white;
+}
+.wb-red
+{
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.individual_dog , .individual_blog
+{
+	padding-left: 0px;
+	padding-right: 1%;
+	z-index: 1;
+	margin-bottom: 1%;
+	cursor: pointer;
+}
+.info
+{
+	text-align: center;
+}
+/*#dogs .col-sm-3
+{
+	margin-top: 1%;
+}*/
+
+.simple-pagination
+{
+	text-align: center;
+	margin-left: 55%;
+	padding-top: 2%;
+}
+/*breeder*/
+.thumbnail-kenburn:hover img {
+    transform: scale(1.2);
+}
+
+#breeder .view img
+{
+	height: 260px;
+}
+
+.userlogin {
+    color: #fff;
+    position: relative;
+    background: #333 url(/assets/img/bg/19.jpg) center fixed;
+    background-size: cover;
+}
+.userlogin:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: " ";
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+}
+#contact .title-v1 h2, #userlogin .title-v1 h2 {
+	color: #fff;
+	}
+.loginbtns
+{
+	margin-left: 25%;
+    width: 50%;
+    margin-top: 3%;
+}
+#loading
+{
+    text-align: center;
+    background: url('ajax-loader.gif') no-repeat center;
+    height: 500px;
+}
+#dogs .content, #breeder .content, #blogs .content
+{
+	background: rgba(0,0,0,0.5);
+}
+#dogs .box , #breeder .box ,#blogs .box
+{
+    position: relative;
+    border-radius: 3px;
+    /*background: #ffffff;
+    border-top: 3px solid #d2d6de;*/
+    margin-bottom: 20px;
+    width: 100%;
+
+    box-shadow: 0 3px 20px rgba(0,0,0,0.1);
+}
+#dogs .text-yellow, #breeder .text-yellow, #blogs .text-yellow
+{
+	color: #dc9a01;
+}
+/*blog page*/
+.widget-area .widget {
+    border: 6px double #fdfdfc;
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 15px;
+    background: rgba(0,0,0,0.5);
+}
+.widget-area h4
+{
+	color: #fff;
+}
+aside h4
+{
+	font-weight: bold;
+}
+.add_blog_btn
+{
+   
+    background-color: #5cb85c;
+    color: #fff;
+}
+/*start for blog image*/
+.wrap-custom-file {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin: 0 0.5rem 1rem;
+    text-align: center;
+    left: 0px !important;
+}
+.wrap-custom-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    overflow: hidden;
+    opacity: 0;
+    border-radius: 50px;
+}
+.wrap-custom-file label span {
+    display: block;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: #777;
+    -webkit-transition: color 0.4s;
+    transition: color 0.4s;
+}
+.wrap-custom-file label .fa {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+    font-size: 1.5rem;
+    color: lightcoral;
+    -webkit-transition: color 0.4s;
+    transition: color 0.4s;
+}
+.wrap-custom-file label {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    cursor: pointer;
+    background-color: ghostwhite;
+    border-radius: 50px;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    transition: transform 0.4s, -webkit-transform 0.4s;
+    border-style: dotted;
+    border-width: 1px;
+    background-size: 100%;
+}
+/*end
+/*blog*/
+.not-padding
+{
+	padding-left: 0px; 
+	padding-right: 0px;
+	padding-top: 5px;
+}
+.lastest_individual_blog_content
+{
+	padding-left: 10px;
+	text-align: left;
+	line-height: 15px;
+}
+.dashed-bottom
+{
+	border-bottom: dashed 1px #a9a6a6;
+}
+.latest_individual_blog
+{	
+	cursor: pointer;
+	margin-top: 4%;
+	padding: 5px;
+	/*box-shadow: 3px 3px 3px 3px #e6e4e4;*/
+	border: 2px dashed #fff;
+}
+.minheight
+{
+	min-height: 603px;
+}
+.latest_individual_blog:hover
+{	
+	cursor: pointer;
+	box-shadow: 1px 1px 1px 1px #fff;
+	border: none;
+}
+/*pedigree*/
+.parent-in{
+    display: inline-block;
+    padding: 0 8px;
+}
+.parent-in li{
+    list-style: none;
+    
+}
+.parent-in li ul{
+    padding: 0;
+}
+.parent-in:first-child{
+    margin: 0;
+}
+.inputs ul li{
+    margin-bottom: -2px;
+}
+.inputs > ul li input{
+    border-radius: 3px;
+    color: #454545;
+    padding: 10px 15px;
+    font-size: 14px;
+    width: 190px;
+    outline: none;
+}
+.input1{
+    border: 2px solid #a67440;
+    background: #ebf7ff;
+}
+.input2{
+    border: 2px solid #583001;
+    background: #faebff;
+}
+.inputs textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 15px 30px;
+    resize: none;
+    height: 100px;
+}
+.inputs button{
+    margin: 15px auto;
+    padding: 10px 15px;
+    color: #fff;
+    background: #583001;
+    border: 2px solid #583001;
+    transition: 0.6s all ease-in-out;
+}
+.inputs button:hover {
+    background: #fff;
+    color: #583001;
+}
+.reserved h4{
+    float: right;
+}
+.portlet.box.blue {
+    border: 1px solid #60aee4;
+    border-top: 0;
+}
+.portlet.blue, .portlet.box.blue>.portlet-title, .portlet>.portlet-body.blue {
+    background-color: #3598dc;
+}
+.portlet.box>.portlet-title {
+    border-bottom: 0;
+    padding: 0 10px;
+    margin-bottom: 0;
+    color: #fff;
+
+}
+.portlet-title .caption
+{
+	font-size: 17px !important;
+}
+.portlet>.portlet-title {
+    border-bottom: 1px solid #eee;
+    padding: 0;
+    margin-bottom: 10px;
+    min-height: 41px;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -ms-border-radius: 4px 4px 0 0;
+    -o-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+.portlet.box>.portlet-body {
+    background-color: #fff;
+    padding: 15px;
+}
+.portlet>.portlet-body {
+    clear: both;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    -ms-border-radius: 0 0 4px 4px;
+    -o-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+.portlet.box.red {
+    border: 1px solid #ed7d84;
+    border-top: 0;
+}
+.portlet.box.red>.portlet-title, .portlet.red, .portlet>.portlet-body.red {
+    background-color: #e7505a;
+}
+.bg-blue {
+    background-color: #0073b7 !important;
+}
+.bg-green, .callout.callout-success, .alert-success, .label-success, .modal-success .modal-body {
+    background-color: #00a65a !important;
+}
+.bg-yellow, .callout.callout-warning, .alert-warning, .label-warning, .modal-warning .modal-body {
+    background-color: #f39c12 !important;
+}
+.bg-red, .callout.callout-danger, .alert-danger, .alert-error, .label-danger, .modal-danger .modal-body {
+    background-color: #dd4b39 !important;
+}
